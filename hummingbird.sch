@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:hummingbird-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,14 +15,101 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Microchip_SAMD:ATSAMD21G18A-AUT U?
+L symbols:ATSAMD21G18A-AUT U?
 U 1 1 5CEC88D0
 P 2400 5150
 F 0 "U?" H 2400 3161 50  0000 C CNN
-F 1 "ATSAMD21G18A-AUT" H 2400 3070 50  0000 C CNN
+F 1 "ATSAMD21G18A-AUT" H 3150 3250 50  0000 C CNN
 F 2 "Package_QFP:TQFP-48_7x7mm_P0.5mm" H 1450 3400 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/SAMD21-Family-DataSheet-DS40001882D.pdf" H 2400 6150 50  0001 C CNN
 	1    2400 5150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2600 3250 2600 2700
+Wire Wire Line
+	2600 2700 3000 2700
+Wire Wire Line
+	3000 2700 3000 2800
+$Comp
+L Device:C_Small C?
+U 1 1 5CF3E2FE
+P 3000 2900
+F 0 "C?" H 3092 2946 50  0000 L CNN
+F 1 "1uF" H 3092 2855 50  0000 L CNN
+F 2 "" H 3000 2900 50  0001 C CNN
+F 3 "~" H 3000 2900 50  0001 C CNN
+	1    3000 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 3000 3000 3200
+$Comp
+L power:GND #PWR?
+U 1 1 5CF3EB72
+P 3000 3200
+F 0 "#PWR?" H 3000 2950 50  0001 C CNN
+F 1 "GND" H 3005 3027 50  0000 C CNN
+F 2 "" H 3000 3200 50  0001 C CNN
+F 3 "" H 3000 3200 50  0001 C CNN
+	1    3000 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 7050 2300 7300
+$Comp
+L power:GND #PWR?
+U 1 1 5CF3F526
+P 2300 7350
+F 0 "#PWR?" H 2300 7100 50  0001 C CNN
+F 1 "GND" H 2305 7177 50  0000 C CNN
+F 2 "" H 2300 7350 50  0001 C CNN
+F 3 "" H 2300 7350 50  0001 C CNN
+	1    2300 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 7050 2500 7300
+Wire Wire Line
+	2300 7300 2500 7300
+Connection ~ 2300 7300
+Wire Wire Line
+	2300 7300 2300 7350
+Wire Wire Line
+	1400 6650 1100 6650
+Text Label 1100 6650 0    50   ~ 0
+RESET
+Wire Wire Line
+	1400 6350 1100 6350
+Wire Wire Line
+	1400 6450 1100 6450
+Text Label 1100 6350 0    50   ~ 0
+SWCLK
+Text Label 1100 6450 0    50   ~ 0
+SWDIO
+Wire Wire Line
+	2500 3250 2500 2700
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CF40C99
+P 2500 2450
+F 0 "#PWR?" H 2500 2300 50  0001 C CNN
+F 1 "+3V3" H 2515 2623 50  0000 C CNN
+F 2 "" H 2500 2450 50  0001 C CNN
+F 3 "" H 2500 2450 50  0001 C CNN
+	1    2500 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 3250 2300 2700
+Wire Wire Line
+	2300 2700 2500 2700
+Connection ~ 2500 2700
+Wire Wire Line
+	2500 2700 2500 2450
+Wire Wire Line
+	2200 3250 2200 2700
+Wire Wire Line
+	2200 2700 2300 2700
+Connection ~ 2300 2700
 $EndSCHEMATC
