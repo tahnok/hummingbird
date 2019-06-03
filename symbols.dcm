@@ -54,4 +54,14 @@ K LDO regulator linear  SOT-23-5
 F http://www.ti.com/lit/ds/symlink/lp2985.pdf
 $ENDCMP
 #
+$CMP W25Q64JVSSIM
+D 64Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8
+K flash memory SPI
+F http://www.winbond.com/resource-files/w25q64jv%20revj%2003272018%20plus.pdf
+$ENDCMP
+#
+$CMP microSD
+F https://www.molex.com/pdm_docs/sd/5031821852_sd.pdf
+$ENDCMP
+#
 #End Doc Library
