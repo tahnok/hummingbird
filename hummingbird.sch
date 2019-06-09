@@ -1312,20 +1312,60 @@ Wire Wire Line
 	1250 6600 1350 6600
 Wire Wire Line
 	1250 6700 1350 6700
-Text Label 1350 4900 2    50   ~ 0
+Text Label 1250 4900 2    50   ~ 0
 microSD_CS
-Text Label 1350 4600 2    50   ~ 0
+Text Label 1250 4600 2    50   ~ 0
 microSD_MOSI
-Text Label 1350 4700 2    50   ~ 0
+Text Label 1250 4700 2    50   ~ 0
 microSD_SCK
-Text Label 1350 4800 2    50   ~ 0
+Text Label 1250 4800 2    50   ~ 0
 microSD_MISO
-Text Label 1350 5300 2    50   ~ 0
+Text Label 1250 5300 2    50   ~ 0
 BMP388_CS
-Text Label 1350 5100 2    50   ~ 0
+Text Label 1250 5100 2    50   ~ 0
 BMP388_SCK
-Text Label 1350 5000 2    50   ~ 0
+Text Label 1250 5000 2    50   ~ 0
 BMP388_MOSI
-Text Label 1350 5200 2    50   ~ 0
+Text Label 1250 5200 2    50   ~ 0
 BMP388_MISO
+Text Label 3500 4450 0    50   ~ 0
+LORA_SCK
+Wire Wire Line
+	1250 4600 1350 4600
+Wire Wire Line
+	1250 4700 1350 4700
+Wire Wire Line
+	1250 4800 1350 4800
+Wire Wire Line
+	1250 4900 1350 4900
+Wire Wire Line
+	1250 5000 1350 5000
+Wire Wire Line
+	1250 5100 1350 5100
+Wire Wire Line
+	1250 5200 1350 5200
+Wire Wire Line
+	1250 5300 1350 5300
+Wire Wire Line
+	3350 4450 3500 4450
+Text Label 3500 4350 0    50   ~ 0
+LORA_MOSI
+Text Label 3500 4550 0    50   ~ 0
+LORA_MISO
+Text Label 3500 4650 0    50   ~ 0
+LORA_CS
+Text Label 3500 4750 0    50   ~ 0
+LORA_RESET
+Text Label 3500 4850 0    50   ~ 0
+LORA_INT
+Wire Wire Line
+	3350 4350 3500 4350
+Wire Wire Line
+	3350 4550 3500 4550
+Wire Wire Line
+	3350 4650 3500 4650
+Wire Wire Line
+	3350 4750 3500 4750
+Wire Wire Line
+	3350 4850 3500 4850
 $EndSCHEMATC
