@@ -1,36 +1,21 @@
 TODO
 
- add pins for i2c and serial for GPS / si5351
- add pins for anenmomentor (interupt pin + vcc + gnd?)
- figure out how many SERCOMs to set up as SPI devices
- breakout arduino pins
+ - assign arduino pin numbers
+ - oscilator crystal selection / caps
+ - replace LDO with higher amp one
+ - figure out if chip selects need pull ups
+ - read lora datasheet for pins
 
-current issue:
+----
 
-how do I assign pins so that I can use them in arduino?
-
-options:
-
-steal feather m0 layout
- - no writing code
- - maybe can't break out all pins the right way?
- - can't use multiple SPIs
-make my owns
- - don't know how
- - might not use pins right
-
-
-next steps:
- - google multiple SPI on arduino?
- - check how SERCOM works on SAMD with Arduino
- - look at schematic for feather m0 express
-
+how do I assign pins so that I can use them in arduino? -> variants.h / variants.cpp
 
 how does sercom work?
 seems like pins can be use in SERCOM or SERCOM_ALT mode, each pin has 2 sercom it can belong to.
 Can pads overlap? no, one per sercom
 what is a pad? set of 4 pins for each SERCOM
 
+https://learn.adafruit.com/using-atsamd21-sercom-to-add-more-spi-i2c-serial-ports/creating-a-new-serial
 
 page 28 of datasheet has pin table
 
@@ -46,23 +31,31 @@ CPOL = 0 and CPHA = 0 (pg75 of RFM9x manual), also active low
 
 FLASH
 
- do I need to do anything with hold or reset? what about write protect?
+ do I need to do anything with hold or reset? what about write protect? -> yes, hold high according to data sheet
 
 
-SD Card
-
-Probably needs it's own SPI / Sercom
-
-
-
-SERCOM and USB??
+SERCOM and USB? -> it's fine, they are seperate things
 
 
 available sercoms:
 
- - sercom 0 (4 pads)
- - sercom 1 (4 pads) 
- - sercom 2 (4 pads)
+ - sercom 0 (4 pads) -> microSD
+ - sercom 1 (4 pads) -> SPI flash
+ - sercom 2 (4 pads) -> BMP388
  - sercom 3 (2 pads) -> I2C breakout
- - sercom 4 (4 pads)
- - sercom 5 (4 pads)
+ - sercom 4 (4 pads) -> LoRa
+ - sercom 5 (4 pads) -> Serial
+
+battery monitoring
+
+ref: https://learn.adafruit.com/adafruit-feather-32u4-basic-proto/power-management#measuring-battery-4-9
+
+https://jeelabs.org/2013/05/16/measuring-the-battery-without-draining-it/
+
+do I add mosfet in exchange for 0 power draw? or let the battery slowly discharge
+
+chip select pullups
+
+https://hackaday.com/2014/11/25/better-spi-bus-design/
+
+"best" practice is yes when shared. SPI flash has it anyway on feather m0 express though
