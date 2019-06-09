@@ -1,0 +1,68 @@
+TODO
+
+ add pins for i2c and serial for GPS / si5351
+ add pins for anenmomentor (interupt pin + vcc + gnd?)
+ figure out how many SERCOMs to set up as SPI devices
+ breakout arduino pins
+
+current issue:
+
+how do I assign pins so that I can use them in arduino?
+
+options:
+
+steal feather m0 layout
+ - no writing code
+ - maybe can't break out all pins the right way?
+ - can't use multiple SPIs
+make my owns
+ - don't know how
+ - might not use pins right
+
+
+next steps:
+ - google multiple SPI on arduino?
+ - check how SERCOM works on SAMD with Arduino
+ - look at schematic for feather m0 express
+
+
+how does sercom work?
+seems like pins can be use in SERCOM or SERCOM_ALT mode, each pin has 2 sercom it can belong to.
+Can pads overlap? no, one per sercom
+what is a pad? set of 4 pins for each SERCOM
+
+
+page 28 of datasheet has pin table
+
+how many SPIs do I need?
+
+ - what is each SPI mode that I need for my devices?
+  - BMP388: active low, mode 0
+  - SD Card: active low, mode 0 (maybe mode 1?)
+  - LoRa: The SPI interface gives access to the configuration register via a synchronous full-duplex protocol corresponding to
+CPOL = 0 and CPHA = 0 (pg75 of RFM9x manual), also active low
+  - SPI flash: SPI bus operation Mode 0 (0,0) and 3 (1,1) are supporte
+
+
+FLASH
+
+ do I need to do anything with hold or reset? what about write protect?
+
+
+SD Card
+
+Probably needs it's own SPI / Sercom
+
+
+
+SERCOM and USB??
+
+
+available sercoms:
+
+ - sercom 0 (4 pads)
+ - sercom 1 (4 pads) 
+ - sercom 2 (4 pads)
+ - sercom 3 (2 pads) -> I2C breakout
+ - sercom 4 (4 pads)
+ - sercom 5 (4 pads)

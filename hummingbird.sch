@@ -103,15 +103,11 @@ F 3 "" H 2800 900 50  0001 C CNN
 	1    2800 900 
 	1    0    0    -1  
 $EndComp
-Text Label 1050 6700 0    50   ~ 0
+Text Label 1250 6700 2    50   ~ 0
 SWDIO
-Text Label 1050 6600 0    50   ~ 0
+Text Label 1250 6600 2    50   ~ 0
 SWCLK
-Wire Wire Line
-	1350 6700 1050 6700
-Wire Wire Line
-	1350 6600 1050 6600
-Text Label 1050 6900 0    50   ~ 0
+Text Label 1050 6900 2    50   ~ 0
 RESET
 Wire Wire Line
 	1350 6900 1050 6900
@@ -585,14 +581,10 @@ D+
 Text Label 9950 1300 2    50   ~ 0
 D-
 NoConn ~ 9750 1400
-Wire Wire Line
-	1350 6300 1050 6300
-Text Label 1050 6300 0    50   ~ 0
-D+
-Wire Wire Line
-	1350 6200 1050 6200
-Text Label 1050 6200 0    50   ~ 0
-D-
+Text Label 1250 6300 2    50   ~ 0
+USB_D+
+Text Label 1250 6200 2    50   ~ 0
+USB_D-
 $Comp
 L Switch:SW_DPDT_x2 SW?
 U 1 1 5CF986DB
@@ -661,7 +653,7 @@ Connection ~ 8400 1750
 Wire Wire Line
 	8400 1750 8450 1750
 Text Label 8400 1900 2    50   ~ 0
-BATT_VOLTAGE
+BATT_V
 Text Notes 5900 4750 2    50   ~ 0
 Altimeter
 $Comp
@@ -735,7 +727,7 @@ BMP388_MOSI
 Wire Wire Line
 	6300 5900 6100 5900
 Text Label 6100 5900 2    50   ~ 0
-BMP388_MSO
+BMP388_MISO
 NoConn ~ 7300 5500
 $Comp
 L symbols:microSD J?
@@ -1248,4 +1240,92 @@ Text Label 5400 7250 0    50   ~ 0
 SWDIO
 Text Label 5400 7350 0    50   ~ 0
 RESET
+Text Notes 7550 3500 0    50   ~ 10
+todo
+Text Notes 7550 3600 0    50   ~ 10
+todo
+Text Notes 8400 1900 0    50   ~ 10
+todo
+Text Notes 650  3050 0    50   ~ 10
+todo
+Text Notes 1250 3050 0    50   ~ 10
+todo
+Text Label 1250 6400 2    50   ~ 0
+USER_LED
+Text Label 1250 4200 2    50   ~ 0
+BATT_V
+Wire Wire Line
+	1350 4100 650  4100
+$Comp
+L Device:C_Small C?
+U 1 1 5CFEE4CF
+P 650 3900
+F 0 "C?" H 742 3946 50  0000 L CNN
+F 1 "??" H 742 3855 50  0000 L CNN
+F 2 "" H 650 3900 50  0001 C CNN
+F 3 "~" H 650 3900 50  0001 C CNN
+	1    650  3900
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CFEE83D
+P 650 3700
+F 0 "#PWR?" H 650 3450 50  0001 C CNN
+F 1 "GND" H 655 3527 50  0000 C CNN
+F 2 "" H 650 3700 50  0001 C CNN
+F 3 "" H 650 3700 50  0001 C CNN
+	1    650  3700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	650  3800 650  3700
+Text Label 1250 4100 2    50   ~ 0
+AREF
+Text Label 1250 4000 2    50   ~ 0
+DAC_VOUT
+Text Label 1250 4300 2    50   ~ 0
+ANEN_INT
+Wire Wire Line
+	1350 4000 1250 4000
+Wire Wire Line
+	1250 4200 1350 4200
+Wire Wire Line
+	1250 4300 1350 4300
+Wire Wire Line
+	650  4000 650  4100
+Wire Wire Line
+	1350 6000 1250 6000
+Text Label 1250 6000 2    50   ~ 0
+I2C_SDA
+Wire Wire Line
+	1350 6100 1250 6100
+Text Label 1250 6100 2    50   ~ 0
+I2C_SCL
+Wire Wire Line
+	1250 6200 1350 6200
+Wire Wire Line
+	1350 6300 1250 6300
+Wire Wire Line
+	1250 6400 1350 6400
+Wire Wire Line
+	1250 6600 1350 6600
+Wire Wire Line
+	1250 6700 1350 6700
+Text Label 1350 4900 2    50   ~ 0
+microSD_CS
+Text Label 1350 4600 2    50   ~ 0
+microSD_MOSI
+Text Label 1350 4700 2    50   ~ 0
+microSD_SCK
+Text Label 1350 4800 2    50   ~ 0
+microSD_MISO
+Text Label 1350 5300 2    50   ~ 0
+BMP388_CS
+Text Label 1350 5100 2    50   ~ 0
+BMP388_SCK
+Text Label 1350 5000 2    50   ~ 0
+BMP388_MOSI
+Text Label 1350 5200 2    50   ~ 0
+BMP388_MISO
 $EndSCHEMATC
