@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/footprints.pretty)(options "")(descr ""))
+  (lib (name microSD_503182-1852)(type Legacy)(uri "${KIPRJMOD}/legacy footprints/microSD_503182-1852.mod")(options "")(descr ""))
+  (lib (name BMP388)(type Legacy)(uri "${KIPRJMOD}/legacy footprints/BMP388.mod")(options "")(descr ""))
+)
