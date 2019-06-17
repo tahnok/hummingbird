@@ -22,6 +22,7 @@ F 0 "U4" H 2450 3511 50  0000 C CNN
 F 1 "ATSAMD21G18A-AUT" H 3200 3600 50  0000 C CNN
 F 2 "footprints:TQFP-48_7x7mm_P0.5mm" H 1500 3750 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/SAMD21-Family-DataSheet-DS40001882D.pdf" H 2450 6500 50  0001 C CNN
+F 4 "ATSAMD21G18A-AUTCT-ND" H 2450 5500 50  0001 C CNN "DigiKey Part Number"
 	1    2450 5500
 	1    0    0    -1  
 $EndComp
@@ -106,6 +107,7 @@ F 0 "C9" V 3600 3500 50  0000 C CNN
 F 1 "1uF" V 3700 3500 50  0000 C CNN
 F 2 "footprints:C_0603_1608Metric" H 3500 3500 50  0001 C CNN
 F 3 "~" H 3500 3500 50  0001 C CNN
+F 4 "1276-1182-1-ND" H 3500 3500 50  0001 C CNN "DigiKey Part Number"
 	1    3500 3500
 	0    1    1    0   
 $EndComp
@@ -125,6 +127,7 @@ F 0 "C8" V 2750 3350 50  0000 C CNN
 F 1 "100nF" V 2750 3550 50  0000 C CNN
 F 2 "footprints:C_0603_1608Metric" H 2650 3350 50  0001 C CNN
 F 3 "~" H 2650 3350 50  0001 C CNN
+F 4 "311-1088-1-ND" H 2650 3350 50  0001 C CNN "DigiKey Part Number"
 	1    2650 3350
 	0    1    1    0   
 $EndComp
@@ -144,6 +147,7 @@ F 0 "C7" V 2950 3200 50  0000 C CNN
 F 1 "100nF" V 2950 3400 50  0000 C CNN
 F 2 "footprints:C_0603_1608Metric" H 2850 3200 50  0001 C CNN
 F 3 "~" H 2850 3200 50  0001 C CNN
+F 4 "311-1088-1-ND" H 2850 3200 50  0001 C CNN "DigiKey Part Number"
 	1    2850 3200
 	0    1    1    0   
 $EndComp
@@ -155,6 +159,7 @@ F 0 "C6" V 3150 3050 50  0000 C CNN
 F 1 "100nF" V 3150 3250 50  0000 C CNN
 F 2 "footprints:C_0603_1608Metric" H 3050 3050 50  0001 C CNN
 F 3 "~" H 3050 3050 50  0001 C CNN
+F 4 "311-1088-1-ND" H 3050 3050 50  0001 C CNN "DigiKey Part Number"
 	1    3050 3050
 	0    1    1    0   
 $EndComp
@@ -183,6 +188,7 @@ F 0 "C3" H 2592 1846 50  0000 L CNN
 F 1 "10uF" H 2592 1755 50  0000 L CNN
 F 2 "footprints:C_0603_1608Metric" H 2500 1800 50  0001 C CNN
 F 3 "~" H 2500 1800 50  0001 C CNN
+F 4 "1276-1119-1-ND" H 2500 1800 50  0001 C CNN "DigiKey Part Number"
 	1    2500 1800
 	1    0    0    -1  
 $EndComp
@@ -232,6 +238,7 @@ F 0 "D1" V 1046 982 50  0000 R CNN
 F 1 "D_Schottky" V 955 982 50  0000 R CNN
 F 2 "footprints:D_0603_1608Metric" V 1000 1050 50  0001 C CNN
 F 3 "~" V 1000 1050 50  0001 C CNN
+F 4 "478-7798-1-ND" H 1000 1050 50  0001 C CNN "DigiKey Part Number"
 	1    1000 1050
 	0    -1   -1   0   
 $EndComp
@@ -249,6 +256,7 @@ F 0 "C1" H 842 1446 50  0000 L CNN
 F 1 "10uF" H 842 1355 50  0000 L CNN
 F 2 "footprints:C_0603_1608Metric" H 750 1400 50  0001 C CNN
 F 3 "~" H 750 1400 50  0001 C CNN
+F 4 "1276-1119-1-ND" H 750 1400 50  0001 C CNN "DigiKey Part Number"
 	1    750  1400
 	1    0    0    -1  
 $EndComp
@@ -271,6 +279,7 @@ F 0 "U1" H 6250 1700 50  0000 C CNN
 F 1 "MCP73831-2-OT" H 5950 1600 50  0000 C CNN
 F 2 "footprints:SOT-23-5" H 6450 1100 50  0001 L CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 6250 1300 50  0001 C CNN
+F 4 "MCP73831T-2ACI/OTCT-ND" H 6400 1350 50  0001 C CNN "DigiKey Part Number"
 	1    6400 1350
 	1    0    0    -1  
 $EndComp
@@ -312,6 +321,7 @@ F 0 "D4" H 7543 1666 50  0000 C CNN
 F 1 "LED" H 7543 1575 50  0000 C CNN
 F 2 "footprints:LED_0603_1608Metric" H 7550 1450 50  0001 C CNN
 F 3 "~" H 7550 1450 50  0001 C CNN
+F 4 "SML-D12U1WT86CT-ND" H 7550 1450 50  0001 C CNN "DigiKey Part Number"
 	1    7550 1450
 	1    0    0    -1  
 $EndComp
@@ -323,6 +333,7 @@ F 0 "R5" V 7150 1450 50  0000 C CNN
 F 1 "1k" V 7250 1450 50  0000 C CNN
 F 2 "footprints:R_0603_1608Metric" H 7050 1450 50  0001 C CNN
 F 3 "~" H 7050 1450 50  0001 C CNN
+F 4 "RHM1.0KDCT-ND" H 7050 1450 50  0001 C CNN "DigiKey Part Number"
 	1    7050 1450
 	0    1    1    0   
 $EndComp
@@ -351,6 +362,7 @@ F 0 "C2" H 7392 1746 50  0000 L CNN
 F 1 "10uF" H 7392 1655 50  0000 L CNN
 F 2 "footprints:C_0603_1608Metric" H 7300 1700 50  0001 C CNN
 F 3 "~" H 7300 1700 50  0001 C CNN
+F 4 "1276-1119-1-ND" H 7300 1700 50  0001 C CNN "DigiKey Part Number"
 	1    7300 1700
 	1    0    0    -1  
 $EndComp
@@ -371,6 +383,7 @@ F 0 "R4" V 5604 1450 50  0000 C CNN
 F 1 "10k" V 5695 1450 50  0000 C CNN
 F 2 "footprints:R_0603_1608Metric" H 5800 1450 50  0001 C CNN
 F 3 "~" H 5800 1450 50  0001 C CNN
+F 4 "RHM10KADCT-ND" H 5800 1450 50  0001 C CNN "DigiKey Part Number"
 	1    5800 1450
 	0    1    1    0   
 $EndComp
@@ -396,6 +409,7 @@ F 0 "J1" H 8328 876 50  0000 L CNN
 F 1 "JST" H 8328 785 50  0000 L CNN
 F 2 "footprints:PinHeader_2x1mm_P2mm_SMD_RA" H 8300 900 50  0001 C CNN
 F 3 "~" H 8300 900 50  0001 C CNN
+F 4 "455-1749-1-ND" H 8300 900 50  0001 C CNN "DigiKey Part Number"
 	1    8300 900 
 	1    0    0    -1  
 $EndComp
@@ -428,13 +442,14 @@ F 3 "" H 7950 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_B_Micro J3
+L symbols:USB_B_Micro J3
 U 1 1 5CF892DE
 P 9450 1200
 F 0 "J3" H 9507 1667 50  0000 C CNN
 F 1 "USB_B_Micro" H 9507 1576 50  0000 C CNN
 F 2 "footprints:USB_Micro_B_Female_10118194-0001LF" H 9600 1150 50  0001 C CNN
 F 3 "~" H 9600 1150 50  0001 C CNN
+F 4 "609-4618-1-ND" H 9450 1200 50  0001 C CNN "DigiKey Part Number"
 	1    9450 1200
 	1    0    0    -1  
 $EndComp
@@ -494,6 +509,7 @@ F 0 "SW1" V 1250 1200 50  0000 L CNN
 F 1 "SW_DPDT_x2" V 1650 1200 50  0000 L CNN
 F 2 "footprints:Switch_Slide_JS202011SCQN" H 1350 1450 50  0001 C CNN
 F 3 "~" H 1350 1450 50  0001 C CNN
+F 4 "401-2002-1-ND" H 1350 1450 50  0001 C CNN "DigiKey Part Number"
 	1    1350 1450
 	0    1    1    0   
 $EndComp
@@ -517,6 +533,7 @@ F 0 "R1" V 8554 1050 50  0000 C CNN
 F 1 "100k" V 8645 1050 50  0000 C CNN
 F 2 "footprints:R_0603_1608Metric" H 8750 1050 50  0001 C CNN
 F 3 "~" H 8750 1050 50  0001 C CNN
+F 4 "RR08P100KDCT-ND" H 8750 1050 50  0001 C CNN "DigiKey Part Number"
 	1    8750 1050
 	-1   0    0    1   
 $EndComp
@@ -528,6 +545,7 @@ F 0 "R3" V 8554 1400 50  0000 C CNN
 F 1 "100k" V 8645 1400 50  0000 C CNN
 F 2 "footprints:R_0603_1608Metric" H 8750 1400 50  0001 C CNN
 F 3 "~" H 8750 1400 50  0001 C CNN
+F 4 "RR08P100KDCT-ND" H 8750 1400 50  0001 C CNN "DigiKey Part Number"
 	1    8750 1400
 	-1   0    0    1   
 $EndComp
@@ -570,6 +588,7 @@ F 5 "P-Sensor SPI I2C 1, 25 Bar SMD" H 6800 5700 50  0001 L BNN "Field5"
 F 6 "https://www.digikey.com/product-detail/en/bosch-sensortec/BMP388/828-1079-1-ND/8322640?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 6800 5700 50  0001 L BNN "Field6"
 F 7 "BMP388" H 6800 5700 50  0001 L BNN "Field7"
 F 8 "WFLGA-10 Bosch Tools" H 6800 5700 50  0001 L BNN "Field8"
+F 9 "828-1079-1-ND" H 6800 5700 50  0001 C CNN "DigiKey Part Number"
 	1    6800 5700
 	1    0    0    -1  
 $EndComp
@@ -632,6 +651,7 @@ F 5 "Molex" H 10350 4200 50  0001 L BNN "Field5"
 F 6 "None" H 10300 3300 50  0001 L BNN "Field6"
 F 7 "WM12834CT-ND" H 10300 3600 50  0001 L BNN "Field7"
 F 8 "https://www.digikey.com/product-detail/en/molex/5031821852/WM12834CT-ND/5823232?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 10350 3900 50  0001 L BNN "Field8"
+F 9 "WM12834CT-ND" H 9650 3600 50  0001 C CNN "DigiKey Part Number"
 	1    9650 3600
 	1    0    0    -1  
 $EndComp
@@ -696,6 +716,7 @@ F 0 "U3" H 6650 4000 50  0000 C CNN
 F 1 "W25Q64JVSSIM" H 7100 3000 50  0000 C CNN
 F 2 "footprints:SOIC-8_5.23x5.23mm_P1.27mm" H 6750 3400 50  0001 C CNN
 F 3 "http://www.winbond.com/resource-files/w25q64jv%20revj%2003272018%20plus.pdf" H 6750 3400 50  0001 C CNN
+F 4 "W25Q64JVSSIMCT-ND" H 6750 3400 50  0001 C CNN "DigiKey Part Number"
 	1    6750 3400
 	1    0    0    -1  
 $EndComp
@@ -747,6 +768,7 @@ F 0 "U5" H 9000 6300 50  0000 C CNN
 F 1 "RFM95W-915S2" H 8750 6200 50  0000 C CNN
 F 2 "footprints:RFM69HCW-XXXS2" H 5800 7300 50  0001 C CNN
 F 3 "https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf" H 5800 7300 50  0001 C CNN
+F 4 "RFM95W-915S2-ND" H 9100 5650 50  0001 C CNN "DigiKey Part Number"
 	1    9100 5650
 	1    0    0    -1  
 $EndComp
@@ -783,6 +805,7 @@ F 0 "J9" H 10150 5200 50  0000 L CNN
 F 1 "Conn_Coaxial" H 9800 5100 50  0000 L CNN
 F 2 "footprints:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 10350 5350 50  0001 C CNN
 F 3 " ~" H 10350 5350 50  0001 C CNN
+F 4 "WM5534-ND" H 10350 5350 50  0001 C CNN "DigiKey Part Number"
 	1    10350 5350
 	1    0    0    -1  
 $EndComp
@@ -894,6 +917,7 @@ F 0 "D3" V 3089 1083 50  0000 R CNN
 F 1 "LED" V 2998 1083 50  0000 R CNN
 F 2 "footprints:LED_0603_1608Metric" H 3050 1200 50  0001 C CNN
 F 3 "~" H 3050 1200 50  0001 C CNN
+F 4 "SML-D12U1WT86CT-ND" H 3050 1200 50  0001 C CNN "DigiKey Part Number"
 	1    3050 1200
 	0    -1   -1   0   
 $EndComp
@@ -905,6 +929,7 @@ F 0 "D2" V 3989 933 50  0000 R CNN
 F 1 "LED" V 3898 933 50  0000 R CNN
 F 2 "footprints:LED_0603_1608Metric" H 3950 1050 50  0001 C CNN
 F 3 "~" H 3950 1050 50  0001 C CNN
+F 4 "SML-D12U1WT86CT-ND" H 3950 1050 50  0001 C CNN "DigiKey Part Number"
 	1    3950 1050
 	0    -1   -1   0   
 $EndComp
@@ -916,6 +941,7 @@ F 0 "R6" V 3150 1550 50  0000 C CNN
 F 1 "1k" V 3250 1550 50  0000 C CNN
 F 2 "footprints:R_0603_1608Metric" H 3050 1550 50  0001 C CNN
 F 3 "~" H 3050 1550 50  0001 C CNN
+F 4 "RHM1.0KDCT-ND" H 3050 1550 50  0001 C CNN "DigiKey Part Number"
 	1    3050 1550
 	1    0    0    -1  
 $EndComp
@@ -927,6 +953,7 @@ F 0 "R2" V 4050 1400 50  0000 C CNN
 F 1 "1k" V 4150 1400 50  0000 C CNN
 F 2 "footprints:R_0603_1608Metric" H 3950 1400 50  0001 C CNN
 F 3 "~" H 3950 1400 50  0001 C CNN
+F 4 "RHM1.0KDCT-ND" H 3950 1400 50  0001 C CNN "DigiKey Part Number"
 	1    3950 1400
 	1    0    0    -1  
 $EndComp
@@ -995,6 +1022,7 @@ F 0 "Y1" H 1400 3450 50  0000 C CNN
 F 1 "32.768 Hz" H 1550 3350 50  0000 C CNN
 F 2 "footprints:Crystal_SMD_3215-2Pin_3.2x1.5mm" H 1150 3350 50  0001 C CNN
 F 3 "https://abracon.com/Resonators/ABS07.pdf" H 1150 3350 50  0001 C CNN
+F 4 "535-9542-1-ND" H 1150 3350 50  0001 C CNN "DigiKey Part Number"
 	1    1150 3350
 	1    0    0    -1  
 $EndComp
@@ -1008,6 +1036,7 @@ F 0 "C4" H 1092 2996 50  0000 L CNN
 F 1 "22pF" H 1092 2905 50  0000 L CNN
 F 2 "footprints:C_0603_1608Metric" H 1000 2950 50  0001 C CNN
 F 3 "~" H 1000 2950 50  0001 C CNN
+F 4 "478-1167-1-ND" H 1000 2950 50  0001 C CNN "DigiKey Part Number"
 	1    1000 2950
 	-1   0    0    -1  
 $EndComp
@@ -1019,6 +1048,7 @@ F 0 "C5" H 1392 2996 50  0000 L CNN
 F 1 "22pF" H 1392 2905 50  0000 L CNN
 F 2 "footprints:C_0603_1608Metric" H 1300 2950 50  0001 C CNN
 F 3 "~" H 1300 2950 50  0001 C CNN
+F 4 "478-1167-1-ND" H 1300 2950 50  0001 C CNN "DigiKey Part Number"
 	1    1300 2950
 	1    0    0    -1  
 $EndComp
@@ -1056,6 +1086,7 @@ F 0 "J5" H 4542 3075 50  0000 C CNN
 F 1 "SWD_PROG" H 4650 3200 50  0000 C CNN
 F 2 "footprints:PinSocket_1x05_P2.54mm_Vertical" H 4650 3500 50  0001 C CNN
 F 3 "~" H 4650 3500 50  0001 C CNN
+F 4 "~" H 4650 3500 50  0001 C CNN "DigiKey Part Number"
 	1    4650 3500
 	-1   0    0    1   
 $EndComp
@@ -1115,6 +1146,7 @@ F 0 "C10" H 842 4046 50  0000 L CNN
 F 1 "1uF" H 842 3955 50  0000 L CNN
 F 2 "footprints:C_0603_1608Metric" H 750 4000 50  0001 C CNN
 F 3 "~" H 750 4000 50  0001 C CNN
+F 4 "1276-1182-1-ND" H 750 4000 50  0001 C CNN "DigiKey Part Number"
 	1    750  4000
 	1    0    0    1   
 $EndComp
@@ -1246,6 +1278,7 @@ F 0 "J2" H 4392 775 50  0000 C CNN
 F 1 "ANEMOMETER" H 4392 866 50  0000 C CNN
 F 2 "footprints:PinSocket_1x03_P2.54mm_Vertical" H 4500 1100 50  0001 C CNN
 F 3 "~" H 4500 1100 50  0001 C CNN
+F 4 "~" H 4500 1100 50  0001 C CNN "DigiKey Part Number"
 	1    4500 1100
 	-1   0    0    1   
 $EndComp
@@ -1257,6 +1290,7 @@ F 0 "J4" H 4392 1725 50  0000 C CNN
 F 1 "Expansion" H 4392 1816 50  0000 C CNN
 F 2 "footprints:PinSocket_1x06_P2.54mm_Vertical" H 4500 2250 50  0001 C CNN
 F 3 "~" H 4500 2250 50  0001 C CNN
+F 4 "~" H 4500 2250 50  0001 C CNN "DigiKey Part Number"
 	1    4500 2250
 	-1   0    0    1   
 $EndComp
@@ -1376,6 +1410,7 @@ F 0 "U2" H 1900 1992 50  0000 C CNN
 F 1 "AP2112K-3.3" H 1900 1901 50  0000 C CNN
 F 2 "footprints:SOT-23-5" H 1900 1975 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AP2112.pdf" H 1900 1750 50  0001 C CNN
+F 4 "AP2112K-3.3TRG1DICT-ND" H 1900 1650 50  0001 C CNN "DigiKey Part Number"
 	1    1900 1650
 	1    0    0    -1  
 $EndComp
@@ -1421,6 +1456,7 @@ F 0 "R8" H 6300 2950 50  0000 C CNN
 F 1 "10k" H 6300 3050 50  0000 C CNN
 F 2 "footprints:R_0603_1608Metric" H 6150 3050 50  0001 C CNN
 F 3 "~" H 6150 3050 50  0001 C CNN
+F 4 "RHM10KADCT-ND" H 6150 3050 50  0001 C CNN "DigiKey Part Number"
 	1    6150 3050
 	-1   0    0    1   
 $EndComp
@@ -1441,6 +1477,7 @@ F 0 "R7" H 9350 2900 50  0000 C CNN
 F 1 "10k" H 9350 3000 50  0000 C CNN
 F 2 "footprints:R_0603_1608Metric" H 9200 3000 50  0001 C CNN
 F 3 "~" H 9200 3000 50  0001 C CNN
+F 4 "RHM10KADCT-ND" H 9200 3000 50  0001 C CNN "DigiKey Part Number"
 	1    9200 3000
 	-1   0    0    1   
 $EndComp
@@ -1462,6 +1499,7 @@ F 0 "R9" H 8550 5100 50  0000 C CNN
 F 1 "10k" H 8550 5200 50  0000 C CNN
 F 2 "footprints:R_0603_1608Metric" H 8400 5200 50  0001 C CNN
 F 3 "~" H 8400 5200 50  0001 C CNN
+F 4 "RHM10KADCT-ND" H 8400 5200 50  0001 C CNN "DigiKey Part Number"
 	1    8400 5200
 	-1   0    0    1   
 $EndComp
@@ -1499,6 +1537,7 @@ F 0 "R10" H 6350 5200 50  0000 C CNN
 F 1 "10k" H 6350 5300 50  0000 C CNN
 F 2 "footprints:R_0603_1608Metric" H 6200 5300 50  0001 C CNN
 F 3 "~" H 6200 5300 50  0001 C CNN
+F 4 "RHM10KADCT-ND" H 6200 5300 50  0001 C CNN "DigiKey Part Number"
 	1    6200 5300
 	-1   0    0    1   
 $EndComp
@@ -1548,6 +1587,7 @@ F 0 "J7" H 4542 4375 50  0000 C CNN
 F 1 "SOIC_CLIP" H 4542 4466 50  0000 C CNN
 F 2 "footprints:SOIC_clipProgSmall" H 4650 4800 50  0001 C CNN
 F 3 "https://hackaday.io/project/165917-soicbite-programmingdebug-connector-footprint" H 4650 4800 50  0001 C CNN
+F 4 "~" H 4650 4800 50  0000 C CNN "DigiKey Part Number"
 	1    4650 4800
 	-1   0    0    1   
 $EndComp

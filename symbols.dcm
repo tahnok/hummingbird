@@ -54,6 +54,18 @@ K LDO regulator linear  SOT-23-5
 F http://www.ti.com/lit/ds/symlink/lp2985.pdf
 $ENDCMP
 #
+$CMP USB_B_Micro
+D USB Micro Type B connector
+K connector USB micro
+F ~
+$ENDCMP
+#
+$CMP USB_B_Mini
+D USB Mini Type B connector
+K connector USB mini
+F ~
+$ENDCMP
+#
 $CMP W25Q64JVSSIM
 D 64Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8
 K flash memory SPI
