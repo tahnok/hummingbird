@@ -797,29 +797,10 @@ Wire Wire Line
 	8600 5550 8350 5550
 Text Label 8350 5550 2    50   ~ 0
 LORA_MISO
-$Comp
-L Connector:Conn_Coaxial J9
-U 1 1 5D031A11
-P 10350 5350
-F 0 "J9" H 10150 5200 50  0000 L CNN
-F 1 "Conn_Coaxial" H 9800 5100 50  0000 L CNN
-F 2 "footprints:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 10350 5350 50  0001 C CNN
-F 3 " ~" H 10350 5350 50  0001 C CNN
-F 4 "WM5534-ND" H 10350 5350 50  0001 C CNN "DigiKey Part Number"
-	1    10350 5350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9600 5350 10050 5350
-Wire Wire Line
-	10350 5550 10350 6350
-Wire Wire Line
-	10350 6350 9200 6350
 Wire Wire Line
 	9100 6350 9100 6250
 Wire Wire Line
 	9200 6250 9200 6350
-Connection ~ 9200 6350
 Wire Wire Line
 	9200 6350 9100 6350
 Wire Wire Line
@@ -840,15 +821,6 @@ F 3 "" H 9100 6450 50  0001 C CNN
 	1    9100 6450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10050 5350 10050 5150
-Wire Wire Line
-	10050 5150 10350 5150
-Connection ~ 10050 5350
-Wire Wire Line
-	10050 5350 10150 5350
-Text Label 10350 5150 2    50   ~ 0
-ANTENNA
 Wire Wire Line
 	8600 5650 8400 5650
 Text Label 8350 5650 2    50   ~ 0
@@ -1393,15 +1365,14 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x01_Female J8
 U 1 1 5D2324C9
-P 9850 5150
-F 0 "J8" H 9742 4925 50  0000 C CNN
-F 1 "Antenna" H 9742 5016 50  0000 C CNN
-F 2 "footprints:PinSocket_1x01_P2.54mm_Vertical" H 9850 5150 50  0001 C CNN
-F 3 "~" H 9850 5150 50  0001 C CNN
-	1    9850 5150
-	-1   0    0    1   
+P 10100 5350
+F 0 "J8" H 9992 5125 50  0000 C CNN
+F 1 "Antenna" H 9992 5216 50  0000 C CNN
+F 2 "footprints:PinSocket_1x01_P2.54mm_Vertical" H 10100 5350 50  0001 C CNN
+F 3 "~" H 10100 5350 50  0001 C CNN
+	1    10100 5350
+	1    0    0    -1  
 $EndComp
-Connection ~ 10050 5150
 $Comp
 L Regulator_Linear:AP2112K-3.3 U2
 U 1 1 5D23442D
@@ -1717,4 +1688,6 @@ Wire Notes Line
 Wire Notes Line
 	9150 600  10300 600 
 NoConn ~ 9450 3000
+Wire Wire Line
+	9600 5350 9900 5350
 $EndSCHEMATC
