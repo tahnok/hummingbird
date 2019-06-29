@@ -1060,49 +1060,41 @@ F 2 "footprints:PinSocket_1x05_P2.54mm_Vertical" H 4650 3500 50  0001 C CNN
 F 3 "~" H 4650 3500 50  0001 C CNN
 F 4 "~" H 4650 3500 50  0001 C CNN "DigiKey Part Number"
 	1    4650 3500
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4850 3700 5100 3700
 $Comp
 L power:GND #PWR0129
 U 1 1 5D16B7BA
-P 5100 3800
-F 0 "#PWR0129" H 5100 3550 50  0001 C CNN
-F 1 "GND" H 5105 3627 50  0000 C CNN
-F 2 "" H 5100 3800 50  0001 C CNN
-F 3 "" H 5100 3800 50  0001 C CNN
-	1    5100 3800
-	1    0    0    -1  
+P 5000 3300
+F 0 "#PWR0129" H 5000 3050 50  0001 C CNN
+F 1 "GND" H 5005 3127 50  0000 C CNN
+F 2 "" H 5000 3300 50  0001 C CNN
+F 3 "" H 5000 3300 50  0001 C CNN
+	1    5000 3300
+	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5100 3700 5100 3800
-Wire Wire Line
-	4850 3300 5100 3300
-Wire Wire Line
-	5100 3300 5100 3200
 $Comp
 L power:+3V3 #PWR0130
 U 1 1 5D1782FB
-P 5100 3200
-F 0 "#PWR0130" H 5100 3050 50  0001 C CNN
-F 1 "+3V3" H 5115 3373 50  0000 C CNN
-F 2 "" H 5100 3200 50  0001 C CNN
-F 3 "" H 5100 3200 50  0001 C CNN
-	1    5100 3200
+P 5250 3200
+F 0 "#PWR0130" H 5250 3050 50  0001 C CNN
+F 1 "+3V3" H 5265 3373 50  0000 C CNN
+F 2 "" H 5250 3200 50  0001 C CNN
+F 3 "" H 5250 3200 50  0001 C CNN
+	1    5250 3200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4850 3400 5100 3400
 Wire Wire Line
 	4850 3500 5100 3500
 Wire Wire Line
 	4850 3600 5100 3600
-Text Label 5100 3400 0    50   ~ 0
+Text Label 5100 3700 0    50   ~ 0
 SWCLK
-Text Label 5100 3500 0    50   ~ 0
-SWDIO
 Text Label 5100 3600 0    50   ~ 0
+SWDIO
+Text Label 5100 3500 0    50   ~ 0
 RESET
 Text Label 1350 6500 2    50   ~ 0
 USER_LED
@@ -1205,9 +1197,9 @@ Text Label 3600 4650 0    50   ~ 0
 LORA_MISO
 Text Label 3600 4750 0    50   ~ 0
 LORA_CS
-Text Label 3600 4850 0    50   ~ 0
+Text Label 1350 4500 2    50   ~ 0
 LORA_RESET
-Text Label 3600 4950 0    50   ~ 0
+Text Label 1350 4600 2    50   ~ 0
 LORA_INT
 Wire Wire Line
 	3450 4450 3600 4450
@@ -1215,10 +1207,6 @@ Wire Wire Line
 	3450 4650 3600 4650
 Wire Wire Line
 	3450 4750 3600 4750
-Wire Wire Line
-	3450 4850 3600 4850
-Wire Wire Line
-	3450 4950 3600 4950
 Wire Wire Line
 	7250 3200 7350 3200
 Wire Wire Line
@@ -1252,83 +1240,75 @@ F 2 "footprints:PinSocket_1x03_P2.54mm_Vertical" H 4500 1100 50  0001 C CNN
 F 3 "~" H 4500 1100 50  0001 C CNN
 F 4 "~" H 4500 1100 50  0001 C CNN "DigiKey Part Number"
 	1    4500 1100
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x06_Female J4
 U 1 1 5D154284
-P 4500 2250
-F 0 "J4" H 4392 1725 50  0000 C CNN
-F 1 "Expansion" H 4392 1816 50  0000 C CNN
-F 2 "footprints:PinSocket_1x06_P2.54mm_Vertical" H 4500 2250 50  0001 C CNN
-F 3 "~" H 4500 2250 50  0001 C CNN
-F 4 "~" H 4500 2250 50  0001 C CNN "DigiKey Part Number"
-	1    4500 2250
-	-1   0    0    1   
+P 4500 2150
+F 0 "J4" H 4392 1625 50  0000 C CNN
+F 1 "Expansion" H 4392 1716 50  0000 C CNN
+F 2 "footprints:PinSocket_1x06_P2.54mm_Vertical" H 4500 2150 50  0001 C CNN
+F 3 "~" H 4500 2150 50  0001 C CNN
+F 4 "~" H 4500 2150 50  0001 C CNN "DigiKey Part Number"
+	1    4500 2150
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR0132
 U 1 1 5D154BAD
-P 4900 900
-F 0 "#PWR0132" H 4900 750 50  0001 C CNN
-F 1 "+3V3" H 4915 1073 50  0000 C CNN
-F 2 "" H 4900 900 50  0001 C CNN
-F 3 "" H 4900 900 50  0001 C CNN
-	1    4900 900 
+P 5200 900
+F 0 "#PWR0132" H 5200 750 50  0001 C CNN
+F 1 "+3V3" H 5215 1073 50  0000 C CNN
+F 2 "" H 5200 900 50  0001 C CNN
+F 3 "" H 5200 900 50  0001 C CNN
+	1    5200 900 
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0133
 U 1 1 5D1699C3
-P 4900 1250
-F 0 "#PWR0133" H 4900 1000 50  0001 C CNN
-F 1 "GND" H 4905 1077 50  0000 C CNN
-F 2 "" H 4900 1250 50  0001 C CNN
-F 3 "" H 4900 1250 50  0001 C CNN
-	1    4900 1250
-	1    0    0    -1  
+P 4900 1000
+F 0 "#PWR0133" H 4900 750 50  0001 C CNN
+F 1 "GND" H 4905 827 50  0000 C CNN
+F 2 "" H 4900 1000 50  0001 C CNN
+F 3 "" H 4900 1000 50  0001 C CNN
+	1    4900 1000
+	0    -1   -1   0   
 $EndComp
-Text Label 4950 1100 0    50   ~ 0
+Text Label 4900 1200 0    50   ~ 0
 ANEN_INT
-Wire Wire Line
-	4700 1100 4950 1100
 $Comp
 L power:GND #PWR0134
 U 1 1 5D1A8337
-P 4900 2550
-F 0 "#PWR0134" H 4900 2300 50  0001 C CNN
-F 1 "GND" H 4905 2377 50  0000 C CNN
-F 2 "" H 4900 2550 50  0001 C CNN
-F 3 "" H 4900 2550 50  0001 C CNN
-	1    4900 2550
-	1    0    0    -1  
+P 4900 1950
+F 0 "#PWR0134" H 4900 1700 50  0001 C CNN
+F 1 "GND" H 4905 1777 50  0000 C CNN
+F 2 "" H 4900 1950 50  0001 C CNN
+F 3 "" H 4900 1950 50  0001 C CNN
+	1    4900 1950
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	4700 2450 4900 2450
-Wire Wire Line
-	4900 2450 4900 2550
 $Comp
 L power:+3V3 #PWR0135
 U 1 1 5D1B30B8
-P 4900 1850
-F 0 "#PWR0135" H 4900 1700 50  0001 C CNN
-F 1 "+3V3" H 4915 2023 50  0000 C CNN
-F 2 "" H 4900 1850 50  0001 C CNN
-F 3 "" H 4900 1850 50  0001 C CNN
-	1    4900 1850
+P 5250 1850
+F 0 "#PWR0135" H 5250 1700 50  0001 C CNN
+F 1 "+3V3" H 5265 2023 50  0000 C CNN
+F 2 "" H 5250 1850 50  0001 C CNN
+F 3 "" H 5250 1850 50  0001 C CNN
+	1    5250 1850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4700 1950 4900 1950
-Wire Wire Line
-	4900 1950 4900 1850
-Wire Wire Line
-	4700 2050 4900 2050
-Text Label 4900 2050 0    50   ~ 0
+Text Label 4900 2450 0    50   ~ 0
 I2C_SDA
 Wire Wire Line
 	4700 2150 4900 2150
-Text Label 4900 2150 0    50   ~ 0
+Text Label 4900 2350 0    50   ~ 0
 I2C_SCL
 Wire Wire Line
 	4700 2250 4900 2250
@@ -1336,7 +1316,7 @@ Text Label 4900 2250 0    50   ~ 0
 SERIAL_RX
 Wire Wire Line
 	4700 2350 4900 2350
-Text Label 4900 2350 0    50   ~ 0
+Text Label 4900 2150 0    50   ~ 0
 SERIAL_TX
 Text Label 1350 5800 2    50   ~ 0
 FLASH_CS
@@ -1543,75 +1523,11 @@ Expansion
 Wire Notes Line
 	4350 4050 5400 4050
 Wire Notes Line
-	5400 4050 5400 2950
-Wire Notes Line
 	5400 2950 4350 2950
 Wire Notes Line
 	4350 2950 4350 4050
 Text Notes 4350 2950 0    50   ~ 0
 SWD Programming
-$Comp
-L Connector:Conn_01x04_Female J7
-U 1 1 5D4418E8
-P 4650 4800
-F 0 "J7" H 4542 4375 50  0000 C CNN
-F 1 "SOIC_CLIP" H 4542 4466 50  0000 C CNN
-F 2 "footprints:SOIC_clipProgSmall" H 4650 4800 50  0001 C CNN
-F 3 "https://hackaday.io/project/165917-soicbite-programmingdebug-connector-footprint" H 4650 4800 50  0001 C CNN
-F 4 "~" H 4650 4800 50  0000 C CNN "DigiKey Part Number"
-	1    4650 4800
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+3V3 #PWR0136
-U 1 1 5D46ECBA
-P 5100 4450
-F 0 "#PWR0136" H 5100 4300 50  0001 C CNN
-F 1 "+3V3" H 5115 4623 50  0000 C CNN
-F 2 "" H 5100 4450 50  0001 C CNN
-F 3 "" H 5100 4450 50  0001 C CNN
-	1    5100 4450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5100 4450 5100 4600
-Wire Wire Line
-	5100 4600 4850 4600
-Text Label 5100 4700 0    50   ~ 0
-SWCLK
-Text Label 5100 4800 0    50   ~ 0
-SWDIO
-$Comp
-L power:GND #PWR0137
-U 1 1 5D47DC25
-P 5100 5000
-F 0 "#PWR0137" H 5100 4750 50  0001 C CNN
-F 1 "GND" H 5105 4827 50  0000 C CNN
-F 2 "" H 5100 5000 50  0001 C CNN
-F 3 "" H 5100 5000 50  0001 C CNN
-	1    5100 5000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4850 4900 5100 4900
-Wire Wire Line
-	5100 4900 5100 5000
-Text Notes 4350 4200 0    50   ~ 0
-SOIC_clip SWD Programming
-Wire Wire Line
-	4850 4800 5100 4800
-Wire Wire Line
-	4850 4700 5100 4700
-Wire Notes Line
-	4350 5250 5400 5250
-Wire Notes Line
-	4350 4200 4350 5250
-Wire Notes Line
-	5400 4200 5400 5250
-Wire Notes Line
-	4350 4200 5400 4200
-NoConn ~ 1450 4500
-NoConn ~ 1450 4600
 NoConn ~ 1450 5900
 NoConn ~ 1450 6000
 NoConn ~ 1450 6600
@@ -1628,10 +1544,6 @@ Wire Notes Line
 	4350 650  5400 650 
 Wire Wire Line
 	4700 1200 4900 1200
-Wire Wire Line
-	4900 1200 4900 1250
-Wire Wire Line
-	4900 900  4900 1000
 Wire Wire Line
 	4900 1000 4700 1000
 Wire Wire Line
@@ -1690,4 +1602,24 @@ Wire Notes Line
 NoConn ~ 9450 3000
 Wire Wire Line
 	9600 5350 9900 5350
+NoConn ~ 3450 4850
+NoConn ~ 3450 4950
+Wire Wire Line
+	1350 4500 1450 4500
+Wire Wire Line
+	1450 4600 1350 4600
+Wire Wire Line
+	5250 3400 5250 3200
+Wire Wire Line
+	4850 3400 5250 3400
+Wire Wire Line
+	4850 3300 5000 3300
+Wire Wire Line
+	5250 2050 5250 1850
+Wire Wire Line
+	4700 2050 5250 2050
+Wire Wire Line
+	5200 1100 5200 900 
+Wire Wire Line
+	4700 1100 5200 1100
 $EndSCHEMATC
