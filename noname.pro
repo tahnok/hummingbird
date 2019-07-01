@@ -1,4 +1,4 @@
-update=6/26/2019 9:19:12 PM
+update=7/1/2019 4:00:57 PM
 version=1
 last_client=pcbnew
 [general]
@@ -33,6 +33,7 @@ TrackWidth2=0.1
 TrackWidth3=0.2
 TrackWidth4=0.25
 TrackWidth5=0.5
+TrackWidth6=1
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -61,4 +62,4 @@ OthersTextUpright=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
