@@ -6,8 +6,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Hummingbird"
-Date "tbd"
-Rev "r0"
+Date "2019-07-01"
+Rev "r1"
 Comp "Wesley Ellis"
 Comment1 "https://github.com/tahnok/hummingbird"
 Comment2 ""
