@@ -8,13 +8,16 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.0"
-   width="1280.000000pt"
-   height="1168.000000pt"
-   viewBox="0 0 1280.000000 1168.000000"
+   width="50pt"
+   height="50pt"
+   viewBox="0 0 50 50"
    preserveAspectRatio="xMidYMid meet"
    id="svg3731"
    sodipodi:docname="hummingbird.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:export-filename="C:\Users\Wesley\Desktop\projects\kites\hummingbird\art\hummingbird.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
   <defs
      id="defs3735" />
   <sodipodi:namedview
@@ -26,15 +29,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1333"
-     inkscape:window-height="836"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
      id="namedview3733"
      showgrid="false"
-     inkscape:zoom="5.9280733"
-     inkscape:cx="121.5589"
-     inkscape:cy="138.78783"
+     inkscape:zoom="11.856147"
+     inkscape:cx="26.161663"
+     inkscape:cy="28.211408"
      inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-y="92"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg3731"
      inkscape:document-units="mm" />
@@ -47,13 +50,13 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
     <dc:format>image/svg+xml</dc:format>
     <dc:type
        rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-    <dc:title />
+    <dc:title></dc:title>
   </cc:Work>
 </rdf:RDF>
 </metadata>
   <path
      inkscape:connector-curvature="0"
      id="path3727"
-     d="M104.95074 1039.5611L99.84914 1042.4372L95.831708 1045.4331L92.003065 1048.864L90.213730875 1048.986575L88.975982 1047.5448L86.79782675 1046.5437625L84.351293 1047.0041L81.658015 1046.9841L77.409803 1046.7233L83.818352 1048.5295L86.158641 1052.953L88.742975 1057.3172L88.7335185 1058.87805L87.194305 1060.2487L86.125325 1062.7425L86.7210590937 1062.6796375L86.35203425 1063.439525L86.598674 1064.4892L86.870974375 1065.419525L86.6316864219 1066.1812L87.354198 1066.0863L88.193358375 1065.4966L88.237887 1066.0073L88.114285375 1067.2714875L88.958204 1067.1853L89.75246125 1066.317925L89.971188 1066.9813L90.16956425 1067.5494625L90.751426 1067.1415L92.217963 1064.9348L94.049662 1062.3379L94.684729 1061.3584L94.757299 1055.3945L98.235937 1052.6461L101.753051 1049.4491L104.260171 1046.7389L101.456171 1047.1169L103.411281 1043.4933L105.454661 1040.072L104.950741 1039.5616L104.95074 1039.5611"
+     d="m 38.459393,10.963337 -5.1016,2.8761 -4.017432,2.9959 -3.828643,3.4309 -1.789334,0.1226 -1.237749,-1.4418 -2.178155,-1.001 -2.446534,0.4603 -2.693278,-0.02 -4.248212,-0.2608 6.408549,1.8062 2.340289,4.4235 2.584334,4.3642 -0.0095,1.5609 -1.539214,1.3706 -1.06898,2.4938 0.595734,-0.063 -0.369025,0.7599 0.24664,1.0497 0.2723,0.9303 -0.239288,0.7617 0.722512,-0.095 0.83916,-0.5897 0.04453,0.5107 -0.123602,1.2642 0.843919,-0.086 0.794257,-0.8674 0.218727,0.6634 0.198376,0.5682 0.581862,-0.408 1.466537,-2.2067 1.831699,-2.5969 0.635067,-0.9795 0.07257,-5.9639 3.478638,-2.7484 3.517116,-3.197 2.50712,-2.7102 -2.804,0.378 1.95511,-3.6236 2.04338,-3.4213 -0.50392,-0.5104 v -5e-4"
      style="fill:none;stroke:#000000;stroke-width:0.24035597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
 </svg>

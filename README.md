@@ -6,12 +6,17 @@
 |_| |_|\___/|_|  |_|_|  |_|___|_| \_|\____|____/___|_| \_\____/ 
 ```
 
+<img src="./art/hummingbird.svg" height=200px />
+
 A lightweight device for capture altitude and other data from a kite
+
+
+![render of board](./render.jpg)
 
 ## References
 
- - BMP388, microSD and Slide switch from Digikey
- - [RFM69](https://github.com/benwis/SparkFun-Kicad-Libraries/blob/master/SparkFun-RF.pretty/RFM69HCW-XXXS2.kicad_mod)
+ - BMP388, microSD and Slide switch footprint from Digikey
+ - [RFM69 Footprint](https://github.com/benwis/SparkFun-Kicad-Libraries/blob/master/SparkFun-RF.pretty/RFM69HCW-XXXS2.kicad_mod)
 
 
 ## Building
