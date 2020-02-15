@@ -13,6 +13,8 @@ A lightweight device for capture altitude and other data from a kite
 
 ![render of board](./render.jpg)
 
+**r1 status:** DO NOT PLUG IN A BATTERY
+
 ## References
 
  - BMP388, microSD and Slide switch footprint from Digikey
@@ -26,3 +28,10 @@ A lightweight device for capture altitude and other data from a kite
  There is a `bom.csv` that contains all the parts and digikey part numbers you need
 
  There's also an `interactive_bom.html` that is from the excellent [InteractiveHtmlBom](https://github.com/openscopeproject/InteractiveHtmlBom) plugin
+
+ ## Known Issues
+
+ ### Rev 1
+
+  1. microSD footprint is backwards, so it is un-usable
+  1. Battery and battery charging to do not work. I plugged one in, immediatly smelled burning. Current theory is that I forgot a current limiting resistor on the LDO's EN pin, so too much current from battery (but not from USB).
