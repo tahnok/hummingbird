@@ -33,5 +33,6 @@ A lightweight device for capture altitude and other data from a kite
 
  ### Rev 1
 
+  1. **Battery connector is wired backwards**
   1. microSD footprint is backwards, so it is un-usable
   1. Battery and battery charging to do not work. I plugged one in, immediatly smelled burning. Current theory is that I forgot a current limiting resistor on the LDO's EN pin, so too much current from battery (but not from USB).
